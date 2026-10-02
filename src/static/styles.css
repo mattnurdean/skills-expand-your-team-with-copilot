@@ -197,6 +197,52 @@ section h3 {
   line-height: 1.4;
 }
 
+.share-actions {
+  display: flex;
+  flex-wrap: wrap;
+  align-items: center;
+  gap: 6px;
+  margin-bottom: 8px;
+}
+
+.share-label {
+  font-size: 0.75rem;
+  color: var(--text-secondary);
+  font-weight: 600;
+}
+
+.share-button {
+  display: inline-flex;
+  align-items: center;
+  justify-content: center;
+  padding: 3px 8px;
+  border-radius: 999px;
+  color: white;
+  font-size: 0.7rem;
+  text-decoration: none;
+  font-weight: 600;
+}
+
+.share-button:hover {
+  opacity: 0.9;
+}
+
+.share-x {
+  background-color: #111;
+}
+
+.share-facebook {
+  background-color: #1877f2;
+}
+
+.share-whatsapp {
+  background-color: #25d366;
+}
+
+.share-email {
+  background-color: #6c757d;
+}
+
 .activity-card-actions {
   margin-top: auto;
   padding-top: 10px;
